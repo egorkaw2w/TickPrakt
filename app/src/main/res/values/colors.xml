@@ -1,0 +1,12 @@
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimaryLight">#FF4081</color>
+    <color name="colorPrimaryDarkLight">#FF4081</color>
+    <color name="colorAccentLight">#FF4081</color>
+
+    <color name="colorPrimaryDarkDark">#000000</color>
+    <color name="colorAccentDark">#FF4081</color>
+</resources>

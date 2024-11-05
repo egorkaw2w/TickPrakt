@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_wins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Победы: 0"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_losses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поражения: 0"
+        android:layout_below="@id/tv_wins"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_draws"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ничьи: 0"
+        android:layout_below="@id/tv_losses"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_back_to_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выход на главное меню"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
